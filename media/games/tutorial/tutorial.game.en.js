@@ -18,8 +18,10 @@ undum.game.version = "1.0";
 /* The situations that the game can be in. Each has a unique ID. */
 undum.game.situations = {
     start: new undum.SimpleSituation(
-        "<h1>Good morning!</h1>\
-        <p><a href='details'>skip</a></p> \
+        "<p>(Are you in a hurry? <a target='_blank' href='https://mplewis.typeform.com/to/qKmZYf'>\
+        Click here to skip straight to the info and RSVP.</a>)</p>\
+        \
+        <h1>Good morning!</h1>\
         \
         <p>It's 7 am on a Monday. You've just gotten up and you are <em>sleepy.</em> \
         Time to get your stuff together and grab some breakfast before work.</p> \
@@ -167,7 +169,7 @@ undum.game.situations = {
         <p>There's a link to a website at the bottom of the card:</p>\
         <p><strong><a target='_blank' href='https://mplewis.typeform.com/to/qKmZYf'>\
         Click here to RSVP!\
-        </strong></p>"
+        </a></strong></p>"
     ),
 };
 
