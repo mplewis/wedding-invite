@@ -113,7 +113,10 @@ undum.game.situations = {
     ),
 
     band: new undum.SimpleSituation(
-        "<p>Oh yeah. Anna and Matt met in high school band back in their \
+        "<p>Just then, another photo falls out of the envelope. They look \
+        younger in this one.</p>\
+        <div class='frame'><img class='framed' src='media/img/highschool.jpg'></div> \
+        <p>Oh yeah. Anna and Matt met in high school band back in their \
         hometown of Wausau, WI. \
         Anna was an incoming freshman, and Matt was helping lead the marching \
         camp before school started that summer.</p> \
