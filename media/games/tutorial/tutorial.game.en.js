@@ -19,7 +19,7 @@ undum.game.version = "1.0";
 undum.game.situations = {
     start: new undum.SimpleSituation(
         "<h1>Good morning!</h1>\
-        <p><a href='photo'>skip</a></p> \
+        <p><a href='details'>skip</a></p> \
         \
         <p>It's 7 am on a Monday. You've just gotten up and you are <em>sleepy.</em> \
         Time to get your stuff together and grab some breakfast before work.</p> \
@@ -102,7 +102,65 @@ undum.game.situations = {
         but he seems to be on his phone and computer 24/7.</p> \
         <p>When he was still in school, Matt was into all sorts of nerd groups like \
         Tesla Works, IEEE, and that engineering fraternity Triangle.</p> \
-        <p class='transient'><a href='band'>They met in high school, didn't they?</a></p>"
+        <p class='transient'><a href='band'>Where did they meet again?</a></p>"
+    ),
+
+    band: new undum.SimpleSituation(
+        "<p>Oh yeah. Anna and Matt met in high school band back in their \
+        hometown of Wausau, WI. \
+        Anna was an incoming freshman, and Matt was helping lead the marching \
+        camp before school started that summer.</p> \
+        \
+        <p> Anna wasn't very talkative back then. She's pretty noisy now, though. \
+        Maybe it's Matt's fault. \
+        They started dating sometime in 2011. Anna insists it was August, \
+        but Matt says they started dating in September.</p> \
+        \
+        <p>Hey, hang on. This is a wedding party. Did you <a href='knew'>hear \
+        about Anna and Matt getting married</a>, or is this <a href='didnt'>news \
+        to you</a>?</p>"
+    ),
+
+    knew: new undum.SimpleSituation(
+        "<p>Yeah, you remember when they changed their statuses on Facebook. \
+        Over 300 likes. The post wouldn’t leave your news feed for two days.</p> \
+        \
+        <p>So I guess since they’re married and all, you should probably \
+        congratulate them. <a href='details'>What’s this about a party?</a></p>"
+    ),
+
+    didnt: new undum.SimpleSituation(
+        "<p>Wow, they’re actually for-real married. And they had the nerve \
+        to not tell you first!</p> \
+        \
+        <p>So I guess since they’re married and all, you should probably \
+        congratulate them. <a href='details'>What’s this about a party?</a></p>"
+    ),
+
+    details: new undum.SimpleSituation(
+        "<p>Near the bottom of the notecard, you spot a bunch of details. \
+        \
+        <div class='invite'><p> \
+        We’re celebrating getting married! <br>\
+        You’re invited because we like you. \
+        </p><p><strong> \
+        Saturday, May 21 <br>\
+        8 PM to 2 AM <br>\
+        Kieran’s Irish Pub <br> \
+        85 N 6th St, Minneapolis, MN 55403 <br> \
+        </strong></p><p> \
+        We are buying beer and wine until Matt runs out of money.<br> \
+        Food will also be available for purchase.<br> \
+        Bring yourself and your friends. <br>\
+        Dress casually. \
+        </p></div> \
+        \
+        <p>Free booze and no stuffy suits? Sounds perfect. You've heard good \
+        things about Kieran's, too.</p> \
+        <p>There's a link to a website at the bottom of the card:</p>\
+        <p><strong><a target='_blank' href='https://mplewis.typeform.com/to/qKmZYf'>\
+        Click here to RSVP!\
+        </strong></p>"
     ),
 
     // NB: The 'hub' situation which is the main list of topics, is
