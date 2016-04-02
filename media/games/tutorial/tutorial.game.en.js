@@ -7,7 +7,7 @@
 /* A unique id for your game. This is never displayed. I use a UUID,
  * but you can use anything that is guaranteed unique (a URL you own,
  * or a variation on your email address, for example). */
-undum.game.id = "be1c95b9-cbc7-48c6-8e6a-89837aa9113e";
+undum.game.id = "https://github.com/mplewis/wedding-invite";
 
 /* A string indicating what version of the game this is. Versions are
  * used to control saved-games. If you change the content of a game,
@@ -56,9 +56,14 @@ undum.game.situations = {
                 'junk':
                     "<p>The colorful mailer catches your eye. \
                     It turns out to be an ad for an electronics store. \
-                    It reads: <em>Come shop at Ants in My Eyes \
-                    Johnson’s Electronics. Our prices, I hope, aren’t too low!</em></p> \
-                    <p>That's okay. You don’t need a new microwave right now.</p>",
+                    It reads: </p> \
+                    <p><em> \
+                    Are you tired of real doors cluttering up where you open \
+                    them and you actually go somewhere and you go into another \
+                    room? \
+                    <a href='https://www.youtube.com/watch?v=pxbsV8QWGic' target='_blank'>\
+                    Get on down to Real Fake Doors!</a></em></p> \
+                    <p>That's okay. You don't need any more fake doors right now.</p>",
 
                 'bill':
                     "<p>The boring white rectangle is addressed to <em>Current Resident</em>. \
@@ -84,7 +89,7 @@ undum.game.situations = {
     openit: new undum.SimpleSituation(
         "<h1>You are cordially invited to Matt and Anna Lewis's Celebrating \
         Getting Married Without Having A Wedding Party!</h1> \
-        <p>Hey, it's from Matt and Anna Lewis. It looks like think Anna changed \
+        <p>Hey, it's from Matt and Anna Lewis. It looks like Anna changed \
         her last name – it used to be Seamon, right? A conveniently-timed \
         photograph <a href='photo'>falls out of the envelope.</a></p>"
     ),
@@ -116,13 +121,15 @@ undum.game.situations = {
         They started dating sometime in 2011. Anna insists it was August, \
         but Matt says they started dating in September.</p> \
         \
-        <p>Hey, hang on. This is a wedding party. Did you <a href='knew'>hear \
+        <p>Hey, hang on. This is a wedding party. <span class='transient'> \
+        Did you <a href='knew'>hear \
         about Anna and Matt getting married</a>, or is this <a href='didnt'>news \
-        to you</a>?</p>"
+        to you</a>?</span></p>"
     ),
 
     knew: new undum.SimpleSituation(
-        "<p>Yeah, you remember when they changed their statuses on Facebook. \
+        "<p>That's right! They didn't tell anyone they were getting married \
+        until they changed their statuses on Facebook. \
         Over 300 likes. The post wouldn’t leave your news feed for two days.</p> \
         \
         <p>So I guess since they’re married and all, you should probably \
