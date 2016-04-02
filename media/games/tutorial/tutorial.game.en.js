@@ -57,7 +57,7 @@ undum.game.situations = {
             actions: {
                 'junk':
                     "<p>The colorful mailer catches your eye. \
-                    It turns out to be an ad for an electronics store. \
+                    It turns out to be an ad for some kind of furniture store. \
                     It reads: </p> \
                     <p><em> \
                     Are you tired of real doors cluttering up where you open \
